@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Welcome To ArchLan Linux
+Comment=Startup application for ArchLan
+Exec=archlan-welcome
+Icon=archlan-normal
+Type=Application
+Categories=System;

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+## About ArchLan
+
+yad --title='About ArchLan Linux' --window-icon='archlan-normal' \
+	--about \
+	--pname='ArchLan' \
+	--pversion='v21.12' \
+	--image='distributor-logo-archlan' \
+	--comments="Arch-based distribution designed for fun and minimalism." \
+	--copyright='Copyright Lanhild © 2021 | ArchLan Linux' \
+	--license='GPL3' \
+	--website='https://archlan.github.io' \
+	--website-label='archlan.github.io' \
+	--authors="Lanhild <archlan@protonmail.com>"

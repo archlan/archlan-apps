@@ -1,0 +1,25 @@
+# Maintainer: Lanhild <archlan@protonmail.com>
+
+pkgname=archlan-about
+pkgver=1.0
+pkgrel=1
+pkgdesc="About ArchLan"
+url="https://github.com/archlan/archlan-apps"
+arch=('any')
+license=('GPL3')
+makedepends=()
+depends=()
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+
+source=(about-os
+		about.desktop)
+
+sha256sums=('fdc9d53644a6d4227916451c82fea74ff69d7b93fe02f067165a84e9ce0b9a26'
+            'f3ee19f432f3201b91d03e5033e55884a83a7589055c45402ab821de8ada90a1')
+
+package() {
+	install -Dm 755 about-os   		${pkgdir}/usr/local/bin/about-os
+	install -Dm 644 about.desktop	${pkgdir}/usr/share/applications/about.desktop
+}

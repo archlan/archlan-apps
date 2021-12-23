@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=About ArchLan
+Comment=About ArchLan Linux
+Exec=about-os
+Icon=archlan-normal
+Type=Application
+Categories=System;

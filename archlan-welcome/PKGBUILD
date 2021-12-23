@@ -1,0 +1,24 @@
+# Maintainer: Lanhild <archlan@protonmail.com>
+
+pkgname=archlan-welcome
+pkgver=1.0
+pkgrel=1
+pkgdesc="Welcome app for ArchLan"
+url="https://github.com/archlan/archlan-apps"
+arch=('any')
+license=('GPL3')
+makedepends=()
+depends=('yad')
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+
+prepare() {
+	cp -af ../files/. ${srcdir}
+}
+
+package() {
+	(find welcome -type f -exec install -Dm 644 "{}" "$pkgdir/usr/share/archlan/{}" \;)
+	install -Dm 755 archlan-welcome 			${pkgdir}/usr/local/bin/archlan-welcome
+	install -Dm 644 archlan-welcome.desktop	${pkgdir}/usr/share/applications/archlan-welcome.desktop
+}
