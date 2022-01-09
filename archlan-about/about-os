@@ -5,7 +5,7 @@
 yad --title='About ArchLan Linux' --window-icon='archlan-normal' \
 	--about \
 	--pname='ArchLan' \
-	--pversion='v21.12' \
+	--pversion='v22.01' \
 	--image='distributor-logo-archlan' \
 	--comments="Arch-based distribution designed for fun and minimalism." \
 	--copyright='Copyright Lanhild © 2021 | ArchLan Linux' \
