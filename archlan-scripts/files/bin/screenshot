@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    takeshot                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2022/01/11 09:48:03 by Lanhild           #+#    #+#              #
+#    Updated: 2022/01/11 09:48:03 by Lanhild          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Script to take screenshot using flameshot
+
+flameshot gui -p $HOME/Pictures/Screenshots

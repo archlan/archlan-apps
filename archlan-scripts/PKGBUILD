@@ -2,13 +2,13 @@
 
 pkgname=archlan-scripts
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="ArchLan scripts."
 url="https://github.com/archlan/archlan-apps"
 arch=('any')
 license=('GPL3')
 makedepends=()
-depends=('light' 'xorg-xbacklight')
+depends=('light' 'xorg-xbacklight' 'flameshot')
 conflicts=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
@@ -18,6 +18,5 @@ prepare() {
 }
 
 package() {
-	(find scripts -type f -exec install -Dm 755 "{}" "$pkgdir/usr/share/archlan/{}" \;)
 	(find bin -type f -exec install -Dm 755 "{}" "$pkgdir/usr/local/{}" \;)
 }

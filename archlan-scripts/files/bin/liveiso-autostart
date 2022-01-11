@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    liveiso-autostart                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2022/01/11 10:10:51 by Lanhild           #+#    #+#              #
+#    Updated: 2022/01/11 10:10:51 by Lanhild          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Script to automatically start GUI apps on first boot.
+
+archlan-welcome
