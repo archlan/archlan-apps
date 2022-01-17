@@ -1,8 +1,18 @@
-# Maintainer: Lanhild <archlan@protonmail.com>
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    PKGBUILD                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2022/01/16 21:31:46 by Lanhild           #+#    #+#              #
+#    Updated: 2022/01/16 21:31:51 by Lanhild          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
 
 pkgname=archlan-fonts
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="ArchLan fonts."
 url="https://github.com/archlan/archlan-apps"
 arch=('any')
