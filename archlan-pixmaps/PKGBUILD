@@ -2,7 +2,7 @@
 
 pkgname=archlan-pixmaps
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Icons & logo for ArchLan"
 url="https://github.com/archlan/archlan-apps"
 arch=('any')
@@ -10,6 +10,7 @@ license=('GPL3')
 makedepends=()
 depends=()
 conflicts=()
+groups=('archlan-apps' 'archlan-de')
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 

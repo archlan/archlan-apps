@@ -2,7 +2,7 @@
 
 pkgname=archlan-scripts
 pkgver=1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="ArchLan scripts."
 url="https://github.com/archlan/archlan-apps"
 arch=('any')
@@ -10,6 +10,7 @@ license=('GPL3')
 makedepends=()
 depends=('light' 'xorg-xbacklight' 'flameshot')
 conflicts=()
+groups=('archlan-apps' 'archlan-de')
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 
