@@ -2,7 +2,7 @@
 
 pkgname=archlan-welcome
 pkgver=1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="Welcome app for ArchLan"
 url="https://github.com/archlan/archlan-apps"
 arch=('any')
@@ -10,7 +10,7 @@ license=('GPL3')
 makedepends=()
 depends=('yad')
 conflicts=()
-groups=('archlan-apps' 'archlan-de')
+groups=('archlan-apps')
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 
